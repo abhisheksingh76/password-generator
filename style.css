@@ -1,0 +1,81 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  max-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right bottom,rgb(255, 170, 0), rgb(0, 119, 255));
+}
+.container{
+  border:2px solid white;
+  border-radius: 0.5rem;
+  padding:1.5rem;
+ 
+
+}
+.container h1{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  margin-right: 8rem;
+  
+  
+}
+#passBox{
+  padding:0.5rem;
+  width:80%;
+  font-size: 1rem;
+  margin-right: 0.3rem;
+ border-radius: 0.4rem;
+ background-color: white;
+}
+#inputBox{
+  position: relative;
+  
+}
+
+.copyButton{
+  cursor: pointer;
+  position: absolute;
+  height:2.35rem;
+  width:4.2rem;
+  border:none;
+  border-radius: 0.3rem;
+  background-color: white;
+  font-size: 1.2rem;
+  color:rgb(72, 70, 70);
+}
+
+.range{
+  width: 100%;
+  margin-top: 0.5rem;
+}
+.Row{
+  display:flex;
+  align-content: space-between;
+  margin-block:0.8rem;
+}
+.Row p, .Row label{
+  flex-basis: 100%;
+  /* margin-right: 50%; */
+
+}
+#generateButton{
+  width:100%;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  background-color:rgb(15, 152, 206);
+  border-radius: 0.5rem;
+  
+  font-weight: 700;
+}
+#generateButton:hover{
+  cursor:pointer;
+  background-color: rgb(5, 114, 154);
+  color:white;
+}
